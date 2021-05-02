@@ -1,0 +1,36 @@
+{
+  "name": "writing-game",
+  "version": "1.0.0",
+  "description": "writing game",
+  "main": "src/app/app.ts",
+  "dependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/preset-env": "^7.13.15",
+    "angular": "^1.8.2",
+    "babel-loader": "^8.2.2",
+    "three": "^0.128.0"
+  },
+  "devDependencies": {
+    "@types/angular": "^1.8.1",
+    "@types/angularjs": "^1.5.14-alpha",
+    "@types/three": "^0.127.1",
+    "css-loader": "^5.2.4",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "raw-loader": "^4.0.2",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^8.0.18",
+    "typescript": "^4.2.4",
+    "webpack": "^5.35.1",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "build": "webpack --bail --progress --profile",
+    "start": "webpack serve",
+    "production": "webpack -p"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
